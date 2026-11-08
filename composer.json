@@ -1,0 +1,56 @@
+{
+    "name": "youvision/think-backup",
+    "description": "ThinkPHP 8 数据库备份与还原组件，支持分卷、压缩、结构与数据备份、表维护及旧版 EmpireBak 备份兼容",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "thinkphp",
+        "thinkphp8",
+        "backup",
+        "database",
+        "mysql",
+        "restore",
+        "empirebak"
+    ],
+    "authors": [
+        {
+            "name": "youvision"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "topthink/framework": "^8.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Youvision\\ThinkBackup\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Youvision\\ThinkBackup\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "Youvision\\ThinkBackup\\Service"
+            ],
+            "config": {
+                "backup": "config/backup.php"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "@php tests/verify.php"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
