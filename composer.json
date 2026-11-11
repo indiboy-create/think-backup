@@ -14,7 +14,12 @@
     ],
     "authors": [
         {
-            "name": "youvision"
+            "name": "indiboy-create",
+            "homepage": "https://github.com/indiboy-create"
+        },
+        {
+            "name": "AI",
+            "role": "Developer"
         }
     ],
     "require": {

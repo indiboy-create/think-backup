@@ -1,3 +1,8 @@
+## ThinkPHP-PanGu - 盘古ThinkPHP开源索引!
+面向 ThinkPHP 的开源工程索引：组件、框架、服务与发布工具，按能力组织，持续整理。
+仓库地址：**<https://github.com/indiboy-create/ThinkPHP-PanGu/>**
+在线站点：**<https://indiboy-create.github.io/ThinkPHP-PanGu/>**
+
 # youvision/think-backup
 
 ThinkPHP 8 数据库备份与恢复组件，基于帝国备份王（EmpireBak）的备份思路重写，使用 ThinkPHP 数据库连接执行，支持结构/数据导出、按大小或记录数分卷、zip 压缩、数据库与数据表维护、旧版备份兼容。
